@@ -1,9 +1,9 @@
 #!/bin/bash
 
-RESOURCE_GROUP=
+RESOURCE_GROUP=functions-demo
 RESOURCE_LOCATION=westeurope
-EH_NAMESPACE=
-EH_NAME=
+EH_NAMESPACE=functions-demo-eh
+EH_NAME=functions-demo-eh
 
 echo Starting deploy script - Interactive Auth
 az login

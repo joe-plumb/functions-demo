@@ -12,11 +12,16 @@
       ]
     },
     {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
       "type": "eventHub",
-      "name": "$return",
-      "eventHubName": "myeventhub",
-      "connection": "MyEventHubSendAppSetting",
-      "direction": "out"
-  }
+      "direction": "out",
+      "name": "msg",
+      "connection": "functionsdemoeh_SendRule_EVENTHUB",
+      "eventHubName": "functions-demo-eh"
+    }
   ]
 }
